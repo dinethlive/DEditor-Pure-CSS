@@ -24,6 +24,18 @@ button {
     }
 }
 
+@keyframes fade-in-from-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
 /* BASE STYLES */
 .app {
     font-family: 'Lato', sans-serif;
@@ -92,8 +104,24 @@ button {
 .sidebar {
     background-color: #10171A;
     width: 75px;
+    display: flex;
+    flex-direction: column;
 }
 
+.menu {
+
+}
+
+.menu__button{
+    padding: 19px 0;
+    color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: all 0.4s;
+    animation: fade-in-from-left 0.5s;
+}
 /* ---------------- */
 
 .panel {
