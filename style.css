@@ -277,3 +277,23 @@ button {
     justify-content: space-between;
 }
 
+.breadcrumbs {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.breadcrumbs__link {
+    color: #A6ADB1;
+    text-decoration: none;
+}
+
+.breadcrumbs__icon {
+    color: #A6ADB1;
+    margin: 0 13px;
+}
+
+.breadcrumbs__name {
+    color: #2E3335;
+    font-weight: 500;
+}
