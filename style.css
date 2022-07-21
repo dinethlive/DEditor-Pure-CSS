@@ -322,3 +322,11 @@ button {
     margin-top: -25px;
     column-gap: 20px;
 }
+
+.canvas {
+    height: 57.5vh;
+    width: 48.6vw;
+    position: relative;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
