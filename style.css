@@ -11,6 +11,18 @@ button {
     font: inherit;
     outline: none; /* Make sure there is a visual indicator for focus state */
 }
+/* KEYFRAMES */
+@keyframes fade-in-from-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 /* BASE STYLES */
 .app {
